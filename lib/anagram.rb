@@ -7,10 +7,10 @@ class Anagram
   end
 
   def match(array_of_words)
-    empty_array = []
+    array = []
     array_of_words.find_all do |a|
-      if a.split("").sort == @word.a.split("").sort
-        a
+      if a.split("").sort == @word.split("").sort
+        array << a
       else
         empty_array
       end
