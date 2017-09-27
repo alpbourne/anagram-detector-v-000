@@ -11,7 +11,7 @@ class Anagram
       if anagram.split("").sort == @word.split("").sort
         array << anagram
       else
-        array
+        array.empty
       end
     end
   end
