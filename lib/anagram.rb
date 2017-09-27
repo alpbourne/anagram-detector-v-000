@@ -6,7 +6,7 @@ class Anagram
 
   def match(array_of_words)
     possible_anagrams = %w[]
-    
+
   end
 
 end
