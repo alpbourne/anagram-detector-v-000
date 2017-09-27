@@ -10,7 +10,7 @@ class Anagram
       if @word.split("").sort == array_of_words.split("").sort
         array_of_words
       else
-        empty_array  
+        empty_array
       end
   end
 
