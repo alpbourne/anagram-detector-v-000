@@ -4,9 +4,8 @@ class Anagram
     @word = word
   end
 
-  def match
-    possible_anagrams = %w[]
-    
+  def match(array_of_words)
+    @word.eql?([array_of_words])
   end
 
 end
