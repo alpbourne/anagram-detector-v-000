@@ -12,6 +12,7 @@ class Anagram
       else
         empty_array
       end
+    end
   end
 
 end
