@@ -12,7 +12,7 @@ class Anagram
       if anagram.split("").sort == @word.split("").sort
         array << anagram
       else
-        empty_array
+        array
       end
     end
   end
