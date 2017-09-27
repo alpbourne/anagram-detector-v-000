@@ -5,7 +5,8 @@ class Anagram
   end
 
   def match
-    possible_anagrams = []
+    possible_anagrams = %w[]
+    
   end
 
 end
